@@ -1,14 +1,13 @@
 from ultralytics import YOLO
 import cv2
 
-# Load the trained model
-model = YOLO(r"C:\Users\Aranganathan\Documents\imp docs\projects\best.pt")
-  # Path to your downloaded best.pt
 
-# Start webcam
+model = YOLO(r"C:\Users\Aranganathan\Documents\imp docs\projects\best.pt")
+
+
 cap = cv2.VideoCapture(0)
 
-# Define emotion color map (optional)
+
 color_map = {
     'anger': (0, 0, 255),
     'content': (255, 255, 0),
@@ -47,3 +46,4 @@ while cap.isOpened():
 
 cap.release()
 cv2.destroyAllWindows()
+
