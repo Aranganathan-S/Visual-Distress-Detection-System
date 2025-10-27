@@ -1,16 +1,16 @@
-# Real-time Emotion Detection using YOLOv8 🎯
+# Real-time Emotion Detection using YOLOv8 �
 
 This project performs real-time facial emotion detection using a custom-trained YOLOv8 model and OpenCV. It captures webcam feed, detects faces, and classifies them into one of eight emotions using bounding boxes, emotion labels, and confidence scores.
 
 ---
 
-## 💡 Motivation
+##  Motivation
 
 Built with the vision of integrating into urban CCTV networks to detect emotional distress and alert authorities in real time.
 
 ---
 
-## 🧠 Model Overview
+##  Model Overview
 
 - **Model:** YOLOv8s (Ultralytics)
 - **Dataset:** 9,400 labeled facial expression images (via Roboflow)
@@ -19,7 +19,7 @@ Built with the vision of integrating into urban CCTV networks to detect emotiona
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python 3.x
 - OpenCV
@@ -28,7 +28,7 @@ Built with the vision of integrating into urban CCTV networks to detect emotiona
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 # 1. Clone the repository
@@ -48,7 +48,7 @@ This opens your webcam and starts detecting emotions live with bounding boxes, c
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 emotion-detection-yolov8/
@@ -60,7 +60,7 @@ emotion-detection-yolov8/
 
 ---
 
-## 📺 Output
+##  Output
 
 - Real-time webcam feed
 - Detected faces with colored bounding boxes
@@ -69,7 +69,7 @@ emotion-detection-yolov8/
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Modify `cv2.VideoCapture(0)` in the script to run on CCTV or video files.
 - This model is lightweight and runs smoothly on most modern machines.
@@ -77,7 +77,7 @@ emotion-detection-yolov8/
 
 ---
 
-## ✍️ Author
+##  Author
 
 **Aranganathan S**  
 🔗 [LinkedIn](https://www.linkedin.com/in/aranganathan-s) • 🤗 [Hugging Face](https://huggingface.co/Aranganathan-S)
