@@ -1,4 +1,4 @@
-# Real-time Emotion Detection using YOLOv8 
+# Visual Distress Detection System 
 
 This project performs real-time facial emotion detection using a custom-trained YOLOv8 model and OpenCV. It captures webcam feed, detects faces, and classifies them into one of eight emotions using bounding boxes, emotion labels, and confidence scores.
 
