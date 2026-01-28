@@ -4,7 +4,7 @@ This project performs real-time facial emotion detection using a custom-trained 
 
 ---
 
-#Use Cases
+# Use Cases
 
 - Integrating into urban CCTV networks to detect emotional distress and alert authorities in real time.
 - Montitoring students's behaviour during online classes
